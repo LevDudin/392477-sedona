@@ -4,9 +4,96 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
+
   <body>
+<header class="page-header">
+      <div class="header-logo">
+          <img src="http://placehold.it/138x70" alt="logo" >
+      </div>
+    <nav>
+      <ul class="main-nav">
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Фото и видео</a></li>
+          <li><a href="#">Карта штата</a></li>
+          <li><a href="#">Гостинницы</a></li>
+        </ul>
+        </nav>
+      </header>
 
+<main>
+    <div><img src="http://placehold.it/1200x773" width="100%"></div> 
+<!--    На счет дива тут вопрос. Нужно ли оборачивать img в div?
+Надписи пока вместе с картинкой думаю вставить. Для резиновости надо отдельно, но я пока не решил. Посоветуемся)   -->
+    
+        
+        <h2>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
+<!--  тут тоже спорный тег Н1 или Н2 или вообще в див обернуть -->
+        <p>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
+    <section clas="advantages">
+        <div>
+        <div class="bcgrclrblue"><h2>НАСТОЯЩИЙ ГОРОДОК</h2>
+        <span>  — №1 —  </span>
+        <p>Седона -не аттракцион для туристов, там течет своя жизнь</p>
+        </div>    
+            <aside><img src="http://placehold.it/800x256"></aside>
+        </div>
+        
+        <div>
+        <ul>
+        <li><h2>Жилье</h2><p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p></li>
+        <li><h2>Еда</h2><p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p></li>
+        <li><h2>Сувениры</h2><p>Не только китайского, но и местного производства!</p></li>
+        </ul>
+        </div>
+        
+        <div>
+        <div class="bcgrclrblue"><h2>ТАМ ЕСТЬ  Мост дьявола</h2>
+        <span>  — №2 —  </span>
+        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+        </div>    
+            <aside><img src="http://placehold.it/800x256"></aside>
+        </div>
+        
+        <div>
+        <ul>
+        <li><h2>НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
+            <span>  — №3 —  </span>
+            <p>ВСЕ достопримечательности  находятся очень близко</p></li>
+        <li><h2>КРАСИВАЯ ДОРОГА</h2>
+            <span>  — №4 —  </span>
+            <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем  Не скучно</p></li>
+        <li><h2>МАЛО ТУРИСТОВ</h2>
+            <span>  — №5 —  </span>
+            <p>Большинство едет в гранд каньон и толпится там</p></li>
+        </ul>
+        </div>
+                
+    </section>
+    <section class="map&form">
+        <h2>Заинтересовались?</h2>
+          <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <form>
+          <label>Дата заезда: <input type=date name=date id=date></label><br>
+          <label>Дата выезда: <input type=date name=date id=date></label><br>
+          <label>Взрослые: <input type=text name=email id=email></label><br>
+          <label>Дети: <input type=text name=email id=email></label><br>
+          <input type="submit" name=seach id=seach value="Найти">
+          </form>
+        <img src="http://placehold.it/1200x593" width="100%">
+<!--        Не знаю какие типы инпута для "взрослые" и "дети"  и как сделать заголовок формы-->
+      </section>
+</main>
+    
+<footer class="page-footer">
+    <strong>#VISITSEDONA</strong>
+    <a class=btn href=#>Твиттер</a>
+          <a class=btn href=#> Фейсбук</a>
+          <a class=btn href=#> Youtube</a>
+    <img src="img/htmlacademy.png" alt="HTMLacademy">
+          <b> Website by </b><a href="#">HTML Academy</a>
+    
+    
     <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+      </footer>
   </body>
 </html>
